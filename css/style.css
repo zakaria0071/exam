@@ -1,0 +1,273 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Lato', sans-serif;
+	margin-left: 10px;
+	margin-right:10px;
+}
+.container{
+	width: 1140px;
+	
+}
+header{
+	width: 100%;
+	float: left;
+	background-color: #ffffff;
+
+}
+
+.logo {
+    padding: 21px 0px;
+    width: 30%;
+    float: left;
+}
+
+.logo img{
+
+}
+.menu{
+	margin: 0px;
+	float: left; 
+}
+nav ul{
+    list-style: none;
+    margin: 33px 0px;
+}
+nav ul li {
+	display: inline-block;
+    text-decoration: none;
+    margin: 1px 32px;
+}
+nav ul a{
+	text-decoration: none;
+    color: #989898;
+    font-size: 19px;
+}
+.banner{
+	width: 100%;
+	float :left;
+	background: url(../img/banner.jpg)no-repeat;
+    background-size: cover;
+
+}
+.banner-content{
+    padding-top: 168px;
+    width: 55%;
+    margin: 0px auto;
+    text-align: center;
+}
+.banner-content h1{
+	font-size: 37px;
+	color: #a0a0a0;
+	margin-bottom: 61px;
+}
+.banner-content .btn{
+	background-color: black;
+	padding: 32px 80px;
+	background-color: #99c50a;
+    padding: 27px 63px;
+    color: #fff;
+    border-radius: 16px;
+    margin-bottom: 167px;
+    font-size: 20px;
+    border-color: transparent;
+}
+.work{
+	width: 100%;
+	float :left;
+    padding: 134px;
+}
+.work-content{
+    padding-top: 168px;
+    width: 55%;
+    margin: 0px auto;
+    text-align: center;
+}
+.work-content h2{
+	font-size: 37px;
+	color: #a0a0a0;
+	margin-bottom: 61px;
+}
+.work p{
+	font-size: 22px;
+    color: #a0a0a0;
+    margin-bottom: 62px;
+    text-align: center;
+}
+.properties{
+	width: 100%;
+	float :left;
+	padding-top: 30px; 
+}
+.find-properties{
+    width: 50%;
+    float: left;
+    background-color: #e2f8ff;
+    padding-top: 52px;
+}
+.find-properties img{
+    width: 28%;
+    float: left;
+    padding: 30px 61px 70px 138px;
+}
+.find-properties content{
+ 	width: 50%;
+ 	float:right;
+}
+.find-properties h2{
+	font-size: 25px;
+	color: #515151;
+	margin-bottom: 21px;
+}
+.find-properties p{
+    font-size: 16px;
+    color: #515151;
+    margin-bottom: 47px;
+}
+.find-properties .btn{
+    padding: 32px 80px;
+    background-color: #26a6d1;
+    padding: 13px 5px;
+    color: #fff;
+    border-radius: 16px;
+    margin-bottom: 140px;
+    font-size: 20px;
+    border-color: transparent;
+}
+.find-buyers{
+ 	width: 50%;
+ 	float:right;
+    padding-top: 52px;
+}
+.find-buyers img{
+    width: 28%;
+    float: left;
+    padding: 30px 61px 70px 138px;
+}
+.find-buyers content{
+ 	width: 50%;
+ 	float:right;
+}
+h2{
+	font-size: 25px;
+	color: #515151;
+	margin-bottom: 21px;
+}
+p{
+    font-size: 16px;
+    color: #515151;
+    margin-bottom: 47px;
+}
+.find-buyers .btn{
+    padding: 32px 80px;
+    background-color: #add136;
+    padding: 13px 5px;
+    color: #fff;
+    border-radius: 16px;
+    margin-bottom: 140px;
+    font-size: 20px;
+    border-color: transparent;
+}
+
+.featured{
+	width: 100%;
+	float :left;
+    padding: 53px;
+}
+.featured .content{
+	 width: 70%;
+ 	float:left;
+}
+.featured a{
+    width: 30%;
+    float: right;
+    padding-top: 19px;
+}
+.featured .btn{
+
+background-color: transparent;
+    padding: 15px 11px;
+    border-radius: 8px;
+    margin-bottom: 117px;
+    font-size: 16px;
+    border-color: #1d1a1a8c;
+}
+/* project decoration*/
+.project{
+	width: 100%;
+	float: left;
+	padding: 15px 0px;
+}
+.project1{
+    width: 25.33%;
+    float: left;
+    padding: 51px;
+}
+.project2{
+      width: 25.4%;
+    float: left;
+    padding: 37px;
+}
+.project3{
+    width: 26.3%;
+    float: left;
+    padding: 38px;
+
+}
+.pro-image{
+	position: relative;
+
+}
+.pro-image img{
+	width: 100%;
+}
+.img-hover-button{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0; 
+}
+
+.img-hover-button .btn{
+ 	padding: 0px;
+    background-color: #26a6d1;
+    padding: 5px 4px;
+    border-radius: 8px;
+    margin-bottom: 117px;
+    font-size: 16px;
+    border-color: transparent;
+    position: absolute;
+    top: 77%;
+    left: 59%
+}
+h3{
+    font-size: 17px;
+    text-align: center;
+    color: #515151;
+    padding-top: 17px;
+    padding-bottom: 15px;
+}
+.project p{
+	text-align: center;
+}
+
+.project .space {
+    word-spacing: 233px;
+    border-bottom: 100px
+    border-color:black;
+}
+.project h2 {
+    text-align: center;
+}
+.project span{
+    border-bottom: 1px solid #c3c3c3;
+
+    width: 342px;
+    display: block;
+}
+.fa.fa-chevron-right{
+
+}
+
